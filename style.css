@@ -51,4 +51,14 @@ span {
 main {
     background-color: black;
     height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img {
+    width: 186px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
 }
