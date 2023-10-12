@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 40px;
+    position: relative;
+}
+
+.speaker {
+    background-color: rgb(74, 74, 74);
+    width: 70px;
+    height: 17px;
+    position: absolute;
+    right: 25px;
+    top: 2px;
+    border-radius: 2px;
+}
+
+span {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.arrow {
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    font-size: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.arrow-background {
+    background-color: rgb(74, 74, 74);
+    width: 15px;
+    height: 17px;
+    border-radius: 2px;
+    position: absolute;
+    right: 5px;
+}
+
+main {
+    background-color: black;
+    height: 100vh;
+}
